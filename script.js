@@ -6,12 +6,12 @@ window.addEventListener('DOMContentLoaded', ()=>{
 // Data to display personal projects
 const personalProjectData = [
     {
-        image: 'images/Bento-Grid.png',
-        title: 'Bento Grid',
-        desc: 'CSS Grid & CSS media queries for responsiveness',
-        languages: 'HTML, CSS',
-        linkToSite: 'https://quae03.github.io/bento-grid/',
-        linkToRepo: 'https://github.com/Quae03/bento-grid'
+        image: 'images/REST-Countries-API.png',
+        title: 'REST Countries API',
+        desc: 'API displaying country data, User search functionality, State control(light and dark themes), Result filtering',
+        languages: 'HTML, CSS, React JSX',
+        linkToSite: 'https://wrldcountries.netlify.app/',
+        linkToRepo: 'https://github.com/Quae03/rest-countries-api'
     },
     {
         image: 'images/Contact-Form.png',
@@ -34,7 +34,7 @@ const personalProjectData = [
         title: 'Mortgage Calculator',
         desc: 'CSS Grid, HTML + Javascript form validation, React.js state management',
         languages: 'HTML, CSS, Javascript',
-        linkToSite: 'https://quae03.github.io/mortgage-form-calculator.netlify.app/',
+        linkToSite: 'https://mortgage-calculator-page.netlify.app/',
         linkToRepo: 'https://github.com/Quae03/mortgage-form-calculator'
     }
 ];

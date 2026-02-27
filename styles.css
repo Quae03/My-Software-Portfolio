@@ -14,7 +14,7 @@
 }
 
 body {
-    background: linear-gradient(to bottom, rgb(255, 117, 37) 10%, rgb(24, 22, 153)) no-repeat;
+    background: linear-gradient(to bottom, #999, rgb(24, 22, 153)) no-repeat;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -93,7 +93,7 @@ body {
             div.contact {
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
+                margin-top: 10px;
             }
         img {
             border-radius: 50%;
