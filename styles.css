@@ -14,7 +14,7 @@
 }
 
 body {
-    background: linear-gradient(to bottom, #999, rgb(24, 22, 153)) no-repeat;
+    background: linear-gradient(to bottom, rgb(151, 150, 214), rgb(24, 22, 153)) no-repeat;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -40,7 +40,6 @@ body {
         justify-content: center;
         gap: 30px;
         width: 50%;
-        margin-bottom: 30px;
         div {
             border: 1px solid #000;
             color: #000;
@@ -80,7 +79,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        margin-bottom: 100px;
+        margin-bottom: 20px;
         transition: all 0.5s ease;
         div.contact-flex-box {
             display: flex;
@@ -93,13 +92,12 @@ body {
             div.contact {
                 display: flex;
                 flex-direction: column;
-                margin-top: 10px;
             }
-        img {
-            border-radius: 50%;
-            width: 200px;
-            margin-bottom: 30px;
-        }
+            img {
+                border-radius: 50%;
+                width: 200px;
+                margin-bottom: 30px;
+            }
         }
         p {
             color: #000;
